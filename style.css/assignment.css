@@ -11,8 +11,10 @@
 }
 
 header{
-    padding-top:16px;
+    
     background-color: #FFFFFF;
+    background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png"),#FFFFFF;
+  padding-top:16px;
 }
 
 nav{
@@ -45,5 +47,55 @@ nav .menu a{
   color:white;
   font-weight: 600;
   font-size: 16px;
+cursor: pointer;
+}
+#banner{
+  margin:115px 120px 0 120px;
+  display:flex;
+  justify-content: space-between;
+}
+.p1{
+font-size: 16px;
+font-weight: medium;
+color:#469165;
+background-color: white;
+padding:8px 12px 8px 34px;
+margin-bottom: 16px;
+}
 
+.h1{
+  font-size: 72px;
+  font-weight: bold;
+  color:#FFFFFF;
+}
+ .h2{ font-size: 72px;
+  font-weight: bold;
+  color:#30B868;
+} 
+
+.banner-container p{
+ font-size:18px ;
+ font-weight: 400;
+ color:#FFFFFF;
+ line-height: 35px;
+}
+
+.Start-btn{
+   background-color:#469165 ;
+  border:none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  color:white;
+  font-weight: 600;
+  font-size: 16px;
+cursor: pointer;
+}
+.See-btn{
+  border:none;
+  padding: 12px 16px;
+  border-radius: 5px;
+  color:white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
 }
