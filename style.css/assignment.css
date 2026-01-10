@@ -11,13 +11,11 @@
 }
 
 header{
-    
-    background-color: #FFFFFF;
-    background: url("../B13-A01-Knowledge-Vault/assets/hero-bg.png"),#FFFFFF;
-  padding-top:16px;
+    width:100%;
+     padding-top:16px;
 }
 
-nav{
+#nav{
     width:85%;
     max-width: 1360px;
     margin:0 auto;
@@ -25,15 +23,27 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.nav-logo{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16;
 
-nav .menu{
+}
+.nav-logo img{
+  width: 139px;
+  height: 60px;
+  margin-bottom:16px;
+}
+#nav .menu{
     display:flex;
     list-style: none;
     gap:32px;
     align-items: center;
 }
 
-nav .menu a{
+#nav .menu a{
   font-size:16px; 
    font-weight: medium;
    text-decoration: none;
@@ -49,53 +59,128 @@ nav .menu a{
   font-size: 16px;
 cursor: pointer;
 }
-#banner{
-  margin:115px 120px 0 120px;
+
+#box{
+  padding:30px;
+}
+#box .box-container{
+  width:85%;
+  max-width:1140px;
+  margin:0 auto;
+}
+
+.section-heading{
+  max-width:1360px;
+  text-align: center;
+}
+.section-heading h2{
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color:#001931;
+}
+.section-heading p{
+  font-size: 16px;
+  font-weight: 400;
+  color:#627382;
+ margin-bottom: 44px;
+}
+
+.banner-section{
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
+  background-image: url("../images/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  min-height:100vh;
+  /* problem */
+  padding:200px 200px 300px 200px;
 }
-.p1{
-font-size: 16px;
-font-weight: medium;
-color:#469165;
-background-color: white;
-padding:8px 12px 8px 34px;
-margin-bottom: 16px;
+.banner-content-container{
+  width:85%;
+  max-width:1360px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.early-access{
+  background-color: white;
+  color:#469165;
+  border-radius: 8px;
+  border:none;
+  padding:6px 8px;
+  cursor:pointer;
+}
+.early-access.dot{
+  display:inline-block;
+  width:8px;
+  height:8px;
+  background-color: #2ecc71;
+  border-radius: 50%;
+  box-shadow:0 0 0 3px (46,204,113,0.2);
+  margin-right:6px;
 }
 
-.h1{
-  font-size: 72px;
-  font-weight: bold;
-  color:#FFFFFF;
+.early-text{
+  font-weight:500px;
 }
- .h2{ font-size: 72px;
-  font-weight: bold;
+.banner-title{
+font-size:72px;
+font-weight: 700px;
+color:white;
+margin-top:16px;
+margin-bottom:16px;
+}
+.title-color{
   color:#30B868;
-} 
-
-.banner-container p{
- font-size:18px ;
- font-weight: 400;
- color:#FFFFFF;
- line-height: 35px;
+  /* problem */
+}
+.banner-text{
+  color:(255,255,225,1);
+  margin-bottom:20px;
 }
 
-.Start-btn{
-   background-color:#469165 ;
-  border:none;
-  padding: 12px 16px;
-  border-radius: 5px;
-  color:white;
-  font-weight: 600;
-  font-size: 16px;
-cursor: pointer;
+.banner-button{
+  display:flex;
+  gap:20px;
 }
-.See-btn{
+.arrow-btn-container{
+  display:flex;
+  align-items: center;
+  border-radius:4px;
   border:none;
-  padding: 12px 16px;
-  border-radius: 5px;
+  background-color: (70,145,101,1);
+  padding:10px 10px;
+  cursor:pointer;
+}
+
+.arrow-title{
   color:white;
-  font-weight: 600;
-  font-size: 16px;
-  cursor: pointer;
+  font-weight: 500px;
+  margin-right:6px;
+}
+
+.play-btn-container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:6px;
+  border: 1px solid(255,255,225,0.7);
+  background-color: transparent;
+  padding:10px 10px;
+  outline:none;
+  cursor:pointer;
+}
+.play-button{
+  width:14px;
+  height:14px;
+  /* Problem */
+  filter:brightness(0) invert(1);
+  margin-right:6px;
+}
+.play-title{
+  color:white;
+  font-weight:500px;
 }
