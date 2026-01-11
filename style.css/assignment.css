@@ -61,7 +61,7 @@
 cursor: pointer;
 }
 
-.banner-section{
+#banner{
   display:flex;
   justify-content: center;
   background-image: url("../images/hero-bg.png");
@@ -69,95 +69,47 @@ cursor: pointer;
   background-position: center;
   width:100%;
   min-height:100vh;
-  /* problem */
   padding:200px 200px 300px 200px;
 }
-.banner-content-container{
-  width:85%;
-  max-width:1360px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+.banner-container{
+   width:85%;
+   max-width: 1360px;
+    margin:0 auto;
 }
-.early-access{
+.banner-container .earl-access{
   background-color: white;
   color:#469165;
-  border-radius: 8px;
-  border:none;
-  padding:6px 8px;
-  cursor:pointer;
-}
-.early-access.dot{
-  display:inline-block;
-  width:8px;
-  height:8px;
-  background-color: #2ecc71;
-  border-radius: 50%;
-  box-shadow:0 0 0 3px (46,204,113,0.2);
-  margin-right:6px;
+  border-radius: 25px;
+  padding:1px 4px 8px 4px;
+  text-align: center;
+  justify-content: center;
+  color:#469165;
+  margin-bottom: 16px;
 }
 
-.early-text{
-  font-weight:500px;
+.banner-container .color-black{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color:#FFFFFF;
+
 }
-.banner-title{
-font-size:72px;
-font-weight: 700px;
-color:white;
-margin-top:16px;
-margin-bottom:16px;
-}
-.title-color{
+.banner-container .color-green{
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
   color:#30B868;
 }
-.banner-text{
-  color:(255,255,225,1);
-  margin-bottom:20px;
-}
-
-.banner-button{
-  display:flex;
-  gap:20px;
-}
-.arrow-btn-container{
-  display:flex;
-  align-items: center;
-  border-radius:4px;
-  border:none;
-  background-color: (70,145,101,1);
-  padding:10px 10px;
-  cursor:pointer;
-}
-
-.arrow-title{
+.banner-container .banner-p {
+  font-size: 18px;
+  font-weight: 500;
   color:white;
-  font-weight: 500px;
-  margin-right:6px;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
 
-.play-btn-container{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  border-radius:6px;
-  border: 1px solid(255,255,225,0.7);
-  background-color: transparent;
-  padding:10px 10px;
-  outline:none;
-  cursor:pointer;
-}
-.play-button{
-  width:14px;
-  height:14px;
-  /* Problem */
-  filter:brightness(0) invert(1);
-  margin-right:6px;
-}
-.play-title{
-  color:white;
-  font-weight:500px;
-}
+
+
 
 
 #note{
