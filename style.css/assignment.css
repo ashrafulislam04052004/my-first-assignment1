@@ -119,7 +119,7 @@ line-height: 36px;
 margin-bottom: 32px;
 }
 .your{
-  margin-left: 20px;
+  margin-left: 5px;
 }
 
 .start-banner{
@@ -257,11 +257,12 @@ gap:20;
 .solution-img{
   max-width:585px;
 }
+
+
 .solution-img li{
 display:flex;
 align-items: center;
 }
-
 #about .about-container{
   width:85%;
   max-width:1360px;
@@ -288,26 +289,14 @@ margin-bottom: 16px;
  line-height: 24px;
 margin-bottom: 24px;
 }
-.about-btn{
-  font-size:16px;
-  font-weight:500px; 
-  color:#FFFFFF;
-  background-color:#469165 ;
-  padding:16px 0px 16px 16px;
-  text-align: center;
-  align-items: center;
-}
-.about-btn img{
- text-align: center;
-  align-items: center; 
 
-}
 
 #footer{
  margin: 0px auto;
  background-color: #001931;
  width:1600px;
- height: 348px;
+ height: 380px;
+ padding-bottom: 20px;
 }
 
 .footer-container{
@@ -354,6 +343,7 @@ max-width:1360px ;
 align-items: center;
 text-align: center;
 color:white;
+
 
 }
     hr{
