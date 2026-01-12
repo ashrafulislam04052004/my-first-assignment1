@@ -126,7 +126,7 @@ margin-bottom: 32px;
   font-size: 16px;
   font-weight: 600px;
   color:white;
-  padding:10px 10px 10px 16px;
+  padding:10px 10px 10px 12px;
   background-color: green;
   border-radius: 5px;
   margin: 10px;
@@ -140,7 +140,7 @@ margin-bottom: 32px;
   .see-how{
    font-size: 16px;
   font-weight: 600px;
-  padding:16px 10px 16px 16px;
+  padding:10px 10px 10px 12px;
   background: none;
   border:2px solid white;
   border-radius: 5px;
