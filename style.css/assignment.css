@@ -118,6 +118,9 @@ color:white;
 line-height: 36px;
 margin-bottom: 32px;
 }
+.your{
+  margin-left: 20px;
+}
 
 .start-banner{
   font-size: 16px;
@@ -148,54 +151,52 @@ margin-bottom: 32px;
 #note{
   padding-top:44px;
   width:1600px;
+   margin:0 auto;
 
 }
+.note-container{
+ width:85%;
+  max-width:1360px;
+  margin: 0 auto;
+ 
+}
+
 
 .note-header{
-  width:85%;
-  max-width:1600px;
-  margin:0 auto;
-  align-items: center;
-
-}
-.note-header h1{
   text-align: center;
+}
+
+
+.note-header h1{
 font-size: 48px;
 color:#001931;
-margin-bottom: 16px;
 }
 .note-header p{
-  text-align: center;
   font-size:16px ;
   font-weight:400;
   color:#627382;
-  margin-bottom: 44px;
+  margin-bottom:44px;
 }
 
-#note .note-container{
-  width:85%;
-  max-width:1360px;
-  margin:0 auto;
-}
 .note-box{
   display:flex;
   gap:24px;
+ text-align: center;
+
+ 
 }
 
 .note-card{
+
   padding:16px 24px;
   max-width:322px;
   min-height: 300px;
    box-shadow: 0 6px 50px 0 #0000001f;
+    padding-top: 60px;
 }
 .note-card img{
   width:34px;
   margin-bottom: 30px; 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
   background-color: #F95555;
   border-radius: 10px;
 }
@@ -209,9 +210,7 @@ margin-bottom: 16px;
   font-size: 16px;
   font-weight: 400;
   line-height: 25px;
-  justify-content: center;
   color:#627382;
-  margin-bottom: 24px;
 }
 
 #solution{
@@ -297,7 +296,6 @@ margin-bottom: 24px;
   padding:16px 0px 16px 16px;
   text-align: center;
   align-items: center;
-  border
 }
 .about-btn img{
  text-align: center;
@@ -356,4 +354,10 @@ max-width:1360px ;
 align-items: center;
 text-align: center;
 color:white;
+
 }
+    hr{
+      height: 2px;
+      background-color: rgb(22, 155, 22);
+      margin-bottom: 20px;
+    }
